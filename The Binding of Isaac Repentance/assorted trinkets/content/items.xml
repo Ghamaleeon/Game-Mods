@@ -1,0 +1,8 @@
+<items gfxroot="gfx/items/" version="1">
+	<trinket name="Inner Void" gfx="inner_void.png" description="Fill it with something"/>
+	<trinket name="Bullet from Heaven" gfx="bullet_heaven.png" description="Fill the screen!"/>
+	<trinket name="Purple Sparks" gfx="purple_sparks.png" description="Future flames"/>
+	<trinket name="Hot Potato" gfx="hot_potato.png" description="Think fast, chuckle nuts!"/>
+	<trinket name="Spare Button" gfx="spare_button.png" description="Give them a chance!"/>
+	<trinket name="Secret Spice" gfx="secret_spice.png" description="Way too tasty"/>
+</items>

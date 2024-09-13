@@ -1,0 +1,21 @@
+<players root="gfx/characters/costumes/" portraitroot="gfx/ui/stage/" nameimageroot="gfx/ui/boss/">
+	<player name="Gamma"
+		skin="character_gamma.png"
+		skinColor="-1"
+		nameimage="playername_gamma.png"
+		portrait="playerportrait_gamma.png"
+		hp="2"
+		birthright="Gulp 'Em all!"
+	/>
+	<player name="Gamma"
+		bSkinParent="Gamma"
+		skin="character_gamma.png"
+		skinColor="-1"
+		nameimage="playername_gamma.png"
+		portrait="playerportrait_gamma.png"
+		hp="2"
+		birthright="FASTER!"
+	/>
+</players>
+
+<!-- costumeSuffix="gamma" -->

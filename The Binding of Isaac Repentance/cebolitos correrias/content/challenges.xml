@@ -1,0 +1,6 @@
+<challenges version="1">
+	<challenge name="Cebolitos Correrias" startingitems="550" difficulty="1" playertype="37" endstage="11"/>
+	<challenge name="Perdido Pisadinhas" startingitems="550" difficulty="1" playertype="10" endstage="11" altpath="true"/>
+	<challenge name="Burguesias Bolonhesa" startingitems="550" difficulty="1" playertype="33" endstage="11" megasatan="true"/>
+	<challenge name="Madalena Muqueteira" startingitems="550" difficulty="1" playertype="22" endstage="8" secretpath="true"/>
+</challenges>
