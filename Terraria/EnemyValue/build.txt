@@ -1,0 +1,3 @@
+displayName = Enemy Value
+author = Ghamaleeon
+version = 0.1

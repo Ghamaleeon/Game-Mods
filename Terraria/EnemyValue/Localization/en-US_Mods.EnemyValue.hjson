@@ -1,0 +1,10 @@
+Configs: {
+	EnemyValueConfig: {
+		DisplayName: Enemy Value Config
+
+		ValueMultiplier: {
+			Label: Value Multiplier
+			Tooltip: ""
+		}
+	}
+}
