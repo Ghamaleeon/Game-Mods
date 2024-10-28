@@ -10,6 +10,10 @@ namespace AdditionalHearts.Content.Items.Accessories {
 		public const int HealCooldown = 36;
 		public int HealDelay = 0;
 		
+		public override void SetStaticDefaults() {
+			ItemID.Sets.ShimmerTransformToItem[Type] = ItemID.BandofRegeneration;
+		}
+		
 		public override void SetDefaults() {
 			Item.CloneDefaults(ItemID.BandofRegeneration);
 			Item.SetNameOverride("Band of Healing");
@@ -17,10 +21,10 @@ namespace AdditionalHearts.Content.Items.Accessories {
 		}
 		
 		public override void UpdateAccessory(Player player, bool hideVisual) {
-			player.AddBuff(BuffID.PotionSickness, 60 * 60);
+			player.AddBuff(BuffID.PotionSickness, 3600);
 			
 			if (HealDelay == 0 && player.statLife < player.statLifeMax2) {
-				player.Heal(1);
+				player.statLife = player.statLife + 1;
 				HealDelay = HealCooldown;
 			}
 			
