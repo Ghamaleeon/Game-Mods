@@ -5,9 +5,9 @@ using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace AdditionalHearts.Content.Items.Accessories {
-	public class BandofHealing : ModItem {
+	public class BandofRejuvenation : ModItem {
 		
-		public const int HealCooldown = 36;
+		public const int HealCooldown = 18;
 		public int HealDelay = 0;
 		
 		public override void SetDefaults() {
@@ -24,6 +24,16 @@ namespace AdditionalHearts.Content.Items.Accessories {
 			}
 			
 			if (HealDelay > 0) HealDelay--;
+		}
+		
+		public override void AddRecipes() {
+			CreateRecipe()
+				.AddIngredient<BandofHealing>()
+				.AddIngredient(ItemID.PhilosophersStone)
+				.AddIngredient(ItemID.SoulofLight, 10)
+				.AddIngredient(ItemID.SoulofMight, 5)
+				.AddTile(TileID.TinkerersWorkbench)
+				.Register();
 		}
 	}
 }

@@ -1,0 +1,29 @@
+Items: {
+	BandofHealing: {
+		DisplayName: Band of Healing
+		Tooltip:
+			'''
+			Heals over time
+			Applies constant potion sickness
+			'''
+	}
+
+	BandofRejuvenation: {
+		DisplayName: Band of Rejuvenation
+		Tooltip:
+			'''
+			Quickly heals over time
+			Applies constant potion sickness
+			'''
+	}
+
+	OccultistEmblem: {
+		DisplayName: Occultist Emblem
+		Tooltip:
+			'''
+			200% increased magic damage
+			Turns maximum mana into maximum health
+			Health is used as mana
+			'''
+	}
+}
