@@ -1,13 +1,13 @@
 ﻿using Microsoft.Xna.Framework;
-using ChaosPickup.Common.Configs;
+using PowerUp.Common.Configs;
 using Terraria;
 using Terraria.Audio;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
-namespace ChaosPickup.Content.Items {
-	public class ChaosPickupItem : ModItem {
+namespace PowerUp.Content.Items {
+	public class PowerUpItem : ModItem {
 
 		public override LocalizedText Tooltip => LocalizedText.Empty;
 
@@ -29,8 +29,8 @@ namespace ChaosPickup.Content.Items {
 		}
 
 		public override bool OnPickup(Player player) {
-			int buff = Main.rand.Next(0, ModContent.GetInstance<ChaosPickupConfig>().PossibleBuffs.Count);
-			player.AddBuff(ModContent.GetInstance<ChaosPickupConfig>().PossibleBuffs[buff].Type, 10 * 60);
+			int buff = Main.rand.Next(0, ModContent.GetInstance<PowerUpConfig>().PossiblePowers.Count);
+			player.AddBuff(ModContent.GetInstance<PowerUpConfig>().PossiblePowers[buff].Type, ModContent.GetInstance<PowerUpConfig>().PowerDuration * 60);
 
 			SoundEngine.PlaySound(SoundID.Grab, player.Center);
 

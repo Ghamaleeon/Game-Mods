@@ -1,0 +1,3 @@
+displayName = Power Up
+author = Ghamaleeon
+version = 1.0

@@ -1,0 +1,22 @@
+Items.PowerUpItem.DisplayName: Power Up
+
+Configs: {
+	PowerUpConfig: {
+		DisplayName: Power Up Config
+
+		PossiblePowers: {
+			Label: Possible Powers
+			Tooltip: Buffs that can be applied
+		}
+
+		DropChance: {
+			Label: Drop Chance
+			Tooltip: Drop chance, 1 in 5 as an example
+		}
+
+		PowerDuration: {
+			Label: Power Duration
+			Tooltip: Duration in seconds of all buffs
+		}
+	}
+}

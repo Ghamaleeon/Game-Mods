@@ -1,3 +1,0 @@
-displayName = Chaos Pickup
-author = Ghamaleeon
-version = 0.1
