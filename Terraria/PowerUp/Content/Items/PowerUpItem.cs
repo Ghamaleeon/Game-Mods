@@ -20,12 +20,12 @@ namespace PowerUp.Content.Items {
 		}
 
 		public override void SetDefaults() {
-			Item.height = 12;
-			Item.width = 12;
+			Item.width = 4;
+			Item.height = 8;
 		}
 
 		public override void PostUpdate() {
-			Lighting.AddLight(Item.Center, Color.WhiteSmoke.ToVector3() * 0.55f * Main.essScale);
+			Lighting.AddLight(Item.Center, Color.DarkOrchid.ToVector3() * 0.55f * Main.essScale);
 		}
 
 		public override bool OnPickup(Player player) {
