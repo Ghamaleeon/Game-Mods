@@ -1,0 +1,3 @@
+displayName = Boss Scaling
+author = Ghamaleeon
+version = 1.0

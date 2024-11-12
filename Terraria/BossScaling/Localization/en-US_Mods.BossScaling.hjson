@@ -1,0 +1,52 @@
+Configs: {
+	ScalingConfig: {
+		DisplayName: Kill Scaling Config
+
+		BossHealthScaling: {
+			Label: Boss health %
+			Tooltip: Bosses' health increase for each time they were killed
+		}
+
+		BossDamageScaling: {
+			Label: Boss damage %
+			Tooltip: Bosses' damage increase for each time they were killed
+		}
+
+		BossValueScaling: {
+			Label: Boss value %
+			Tooltip: Bosses' coin drops increase for each time they were killed
+		}
+
+		EnemyHealthScaling: {
+			Label: Enemy health % / 10
+			Tooltip:
+				'''
+				Enemies' health increase for each time they were killed
+				(Percentage divided by 10)
+				'''
+		}
+
+		EnemyDamageScaling: {
+			Label: Enemy damage % / 10
+			Tooltip:
+				'''
+				Enemies' damage increase for each time they were killed
+				(Percentage divided by 10)
+				'''
+		}
+
+		EnemyValueScaling: {
+			Label: Enemy value % / 10
+			Tooltip:
+				'''
+				Enemies coin drops increase for each time they were killed
+				(Percentage divided by 10)
+				'''
+		}
+
+		Headers: {
+			ToBosses: "[i:43] For bosses"
+			ToEnemies: "[i:1304] For Enemies"
+		}
+	}
+}
