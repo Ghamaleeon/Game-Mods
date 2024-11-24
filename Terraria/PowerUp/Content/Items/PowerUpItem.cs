@@ -32,7 +32,7 @@ namespace PowerUp.Content.Items {
 			int buff = Main.rand.Next(0, ModContent.GetInstance<PowerUpConfig>().PossiblePowers.Count);
 			player.AddBuff(ModContent.GetInstance<PowerUpConfig>().PossiblePowers[buff].Type, ModContent.GetInstance<PowerUpConfig>().PowerDuration * 60);
 
-			SoundEngine.PlaySound(SoundID.Grab, player.Center);
+			SoundEngine.PlaySound(SoundID.Item4, player.Center);
 
 			return false;
 		}

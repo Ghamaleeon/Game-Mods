@@ -8,6 +8,18 @@ namespace PowerUp.Common.Configs {
 		public override ConfigScope Mode => ConfigScope.ServerSide;
 		
 		public List<BuffDefinition> PossiblePowers = new List<BuffDefinition>() {
+			new BuffDefinition(BuffID.Poisoned),
+			new BuffDefinition(BuffID.Darkness),
+			new BuffDefinition(BuffID.Cursed),
+			new BuffDefinition(BuffID.OnFire),
+			new BuffDefinition(BuffID.Bleeding),
+			new BuffDefinition(BuffID.Confused),
+			new BuffDefinition(BuffID.Slow),
+			new BuffDefinition(BuffID.Weak),
+			new BuffDefinition(BuffID.Silenced),
+			new BuffDefinition(BuffID.BrokenArmor),
+			new BuffDefinition(BuffID.Suffocation),
+			
 			new BuffDefinition(BuffID.ObsidianSkin),
 			new BuffDefinition(BuffID.Regeneration),
 			new BuffDefinition(BuffID.Swiftness),
@@ -28,10 +40,10 @@ namespace PowerUp.Common.Configs {
 			new BuffDefinition(BuffID.Dangersense)
 		};
 		
-		[DefaultValue(15)]
+		[DefaultValue(10)]
 		public int DropChance;
 		
-		[DefaultValue(60)]
+		[DefaultValue(30)]
 		public int PowerDuration;
 	}
 }

@@ -3,7 +3,7 @@ Items: {
 		DisplayName: Band of Healing
 		Tooltip:
 			'''
-			Heals over time
+			Heals 100 health along 60 seconds
 			Applies constant potion sickness
 			'''
 	}
@@ -12,18 +12,8 @@ Items: {
 		DisplayName: Band of Rejuvenation
 		Tooltip:
 			'''
-			Quickly heals over time
+			Heals 200 health along 60 seconds
 			Applies constant potion sickness
-			'''
-	}
-
-	OccultistEmblem: {
-		DisplayName: Occultist Emblem
-		Tooltip:
-			'''
-			200% increased magic damage
-			Turns maximum mana into maximum health
-			Health is used as mana
 			'''
 	}
 }
